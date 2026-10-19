@@ -3,24 +3,24 @@
 ### Original Code
 - 10 ms delay = 20 ms expected period
   - Period: 20.001 ms
-    - Std Dev: 0 ms
+    - Std Dev: 500 ns
   - Frequency: 49.998 Hz
-    - Std Dev: 0 Hz
+    - Std Dev: 1000 uHz
   - Duty Cycle: 49.998%
     - Std Dev: 0.00188%
 
-  - Jitter: Too small to measure
+  - Jitter: ~500 ns
   - Drift: 180 ms per hour
 
 - 1 ms delay = 2 ms expected period
   - Period: 2.0000 ms
-    - Std Dev: 0 ms
+    - Std Dev: 30 ns
   - Frequency: 500.00 Hz
-    - Std Dev: 0 Hz
+    - Std Dev: 400 uHz
   - Duty Cycle: 49.99%
     - Std Dev: 0.0018%
 
-  - Jitter: Too small to measure
+  - Jitter: ~30 ns
   - Drift: Too small to measure
 
 ### With Busy Wait Loop
@@ -39,13 +39,13 @@
 ### Original Code
 - 10 ms delay = 20 ms expected period
   - Period: 20.001 ms
-    - Std Dev: 0 ms
+    - Std Dev: 500 ns
   - Frequency: 49.998 Hz
-    - Std Dev: 0 Hz
+    - Std Dev: 1000 uHz
   - Duty Cycle: 49.998%
     - Std Dev: 0.00188%
 
-  - Jitter: Too small to measure
+  - Jitter: ~500 ns
   - Drift: 180 ms per hour
 
 - 1 ms delay = 2 ms expected period
@@ -75,13 +75,13 @@
 ### Original Code
 - 10 ms delay = 20 ms expected period
   - Period: 20.001 ms
-    - Std Dev: 0 ms
+    - Std Dev: 500 ns
   - Frequency: 49.998 Hz
-    - Std Dev: 0 Hz
+    - Std Dev: 1000 uHz
   - Duty Cycle: 49.998%
     - Std Dev: 0.00188%
 
-  - Jitter: Too small to measure
+  - Jitter: ~500 ns
   - Drift: 180 ms per hour
 
 - 1 ms delay = 2 ms expected period
