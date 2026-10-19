@@ -25,15 +25,15 @@
 
 ### With Busy Wait Loop
 - 10 ms delay = 20 ms expected period
-  - Period: 
-    - Std Dev: 
-  - Frequency: 
-    - Std Dev: 
-  - Duty Cycle: 
-    - Std Dev: 
+  - Period: 21.600 ms
+    - Std Dev: 500 ns
+  - Frequency: 46.296 Hz
+    - Std Dev: 500 uHz
+  - Duty Cycle: 50.00%
+    - Std Dev: 0.0017%
 
-  - Jitter: 
-  - Drift: 
+  - Jitter: ~500 ns
+  - Drift: 288 seconds per hour
 
 ## timer.c
 ### Original Code
@@ -61,15 +61,15 @@
 
 ### With Busy Wait Loop
 - 10 ms delay = 20 ms expected period
-  - Period: 
-    - Std Dev: 
-  - Frequency: 
-    - Std Dev: 
-  - Duty Cycle: 
-    - Std Dev: 
+  - Period: 20.001 ms
+    - Std Dev: 500 ns
+  - Frequency: 50.000 Hz
+    - Std Dev: 1000 uHz
+  - Duty Cycle: 49.998%
+    - Std Dev: 0.0015%
 
-  - Jitter: 
-  - Drift: 
+  - Jitter: ~500 ns
+  - Drift: 180 ms per hour
 
 ## task_delay.c
 ### Original Code
@@ -97,12 +97,12 @@
 
 ### With Busy Wait Loop
 - 10 ms delay = 20 ms expected period
-  - Period: 
-    - Std Dev: 
-  - Frequency: 
-    - Std Dev: 
-  - Duty Cycle: 
-    - Std Dev: 
+  - Period: 20.000 ms
+    - Std Dev: 500 ns
+  - Frequency: 50.000 Hz
+    - Std Dev: 1000 uHz
+  - Duty Cycle: 50.00%
+    - Std Dev: 700 u%
 
-  - Jitter: 
-  - Drift: 
+  - Jitter: ~500 ns
+  - Drift: Too small to measure

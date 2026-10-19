@@ -13,6 +13,10 @@ int main(void)
     while (true) {
         toggle = !toggle;
         gpio_put(OUT_PIN, toggle);
+
+        // Intensive calculation
+        for (volatile int i = 0; i < 10000; i++);
+
         sleep_ms(DELAY_MS);
     }
 }
