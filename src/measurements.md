@@ -120,4 +120,4 @@
   - Drift: Too small to measure
 
 # Activity 2 Measurements
-- Interrupt Handler Latency (no busy loop): 45.4 us
+- Interrupt Handler Latency (no busy loop): 1.81 us
