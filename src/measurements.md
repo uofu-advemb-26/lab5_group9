@@ -106,3 +106,15 @@
 
   - Jitter: ~500 ns
   - Drift: Too small to measure
+
+## Measurements of Function Generator
+- 10 ms delay = 20 ms expected period
+  - Period: 20.000 ms
+    - Std Dev: ~1.1 us
+  - Frequency: 50.000 Hz
+    - Std Dev: ~0.003 Hz
+  - Duty Cycle: 50.00%
+    - Std Dev: ~0.004%
+
+  - Jitter: ~1.1 us
+  - Drift: Too small to measure
