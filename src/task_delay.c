@@ -33,7 +33,9 @@ int main(void)
     TaskHandle_t task;
     xTaskCreate(main_task, "MainThread",
                 configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, &task);
-    xTaskCreate(busy_task, "BusyTask",
+    xTaskCreate(busy_task, "BusyTask1",
+                configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, NULL);
+    xTaskCreate(busy_task, "BusyTask2",
                 configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1UL, NULL);
     vTaskStartScheduler();
     return 0;

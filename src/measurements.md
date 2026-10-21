@@ -133,3 +133,13 @@
   - Std Dev: 0.0 Hz
 - Duty Cycle: 49.99%
   - Std Dev: 0.001%
+
+## With 3 Total Tasks
+*Expected result: 4 ms period*
+
+- Period: 4.0002 ms
+  - Std Dev: 3.6 ns
+- Frequency: 249.99 Hz
+  - Std Dev: ~340 uHz
+- Duty Cycle: 49.998%
+  - Std Dev: ~370 u%
