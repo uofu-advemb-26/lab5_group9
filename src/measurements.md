@@ -118,3 +118,6 @@
 
   - Jitter: ~1.1 us
   - Drift: Too small to measure
+
+# Activity 2 Measurements
+- Interrupt Handler Latency (no busy loop): 45.4 us
