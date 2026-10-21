@@ -122,3 +122,14 @@
 # Activity 2 Measurements
 - Interrupt Handler Latency (no busy loop): 1.81 us
 - Interrupt Handler Latency (with busy loop): 802.0 us
+
+# Activity 3 Measurements
+## With 2 Total Tasks
+*Expected result: 2 ms period*
+
+- Period: 2.0000 ms
+  - Std Dev: 0.0 ms
+- Frequency: 500.00 Hz
+  - Std Dev: 0.0 Hz
+- Duty Cycle: 49.99%
+  - Std Dev: 0.001%
